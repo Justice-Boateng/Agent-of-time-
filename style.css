@@ -156,8 +156,8 @@ button:hover {
       background: #f1f5f9;
   color: black;
   }
-.service-card {
-  background: white;
+.service-box{
+  background: blue;
   margin: 15px;
   padding: 20px;
   border-radius: 10px;
