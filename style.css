@@ -1,0 +1,150 @@
+/* RESET */
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a; /* dark background */
+  color: #ffffff;
+  padding: 10px;
+}
+footer{
+    text-align: center;
+      }
+      
+/* HEADINGS */
+h1, h2, h3 {
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+h2, h3 {
+  color: green;
+}
+h3{
+    background: white;
+}
+
+/* HEADER */
+.header_h1 {
+  background: black;
+  color: white;
+  padding:  0.25em;
+  text-align: center;
+}
+
+.header_nav {
+  background: white;
+  border-bottom: 1px solid green;
+  font-weight: bold;
+  box-shadow: 0 6px 5px -5px green;
+}
+
+.header_ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding:0.25em 2.5%;
+  list-style-type: none;
+  gap: 1rem;
+  
+}
+
+/* HERO IMAGE */
+img {
+  width: 100%;
+  height: 25vh;
+  object-fit: cover;
+}
+
+/* CONTACT BOX */
+.contact-container {
+  max-width: 400px;
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+/* CONTACT INFO */
+.contact-info {
+  text-align: center;
+}
+
+/* LINKS */
+a {
+  color: #22c55e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #16a34a;
+}
+
+/* BUTTON */
+button {
+  width: 100%;
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+/* SOCIAL ICONS */
+.social {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  font-size: 28px;
+  margin: 10px;
+  color: white;
+}
+
+.fa-whatsapp:hover { color: #25D366; }
+.fa-facebook:hover { color: #1877F2; }
+.fa-tiktok:hover { color: #ff0050; }
+.fa-youtube:hover { color: #FF0000; }
+
+/* || HERO  *//
+
+  .hero_{
+      position: relative;
+  }
+
+  .hero_h2{
+      background: green;
+      color:white;
+      padding: 0.25em 0.5em;
+      letter-spacing: 0.1rem;
+      text-shadow: 2px 2px 5px white;
+      position: absolute;
+      top: -100px;
+      left: 20px;
+      animation: showWelcome 0.5s ease-in-out 1s forwards;
+      
+      
+  }
+  @keyframes showWelcome{
+      0%{
+          top: -0px;
+          transform: skew(80deg, -0deg) scaleY(0);
+      }
+      80%{
+          top: -30px;
+          transform: skew(90deg, -8deg) scaleY(1.2);
+      }
+      100%{
+          top: 150px;
+          transform: skew(-10deg, -5deg) scaleY(1);
+      }
+  }
+  
+  
+  .card{
+      background: blue;
+      color: white;
+  }
