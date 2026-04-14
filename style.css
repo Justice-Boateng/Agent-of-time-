@@ -145,7 +145,7 @@ button:hover {
       }
       80%{
           top: -30px;
-          transform: skew(110deg, -8deg) scaleY(1.2);
+          transform: skew(120deg, -8deg) scaleY(1.2);
       }
       100%{
           top: 150px;
