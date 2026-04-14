@@ -154,3 +154,35 @@ button:hover {
       background: blue;
       color: white;
   }
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 22px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.cta {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.whatsapp-btn {
+  display: inline-block;
+  background: #25D366;
+  color: white;
+  padding: 14px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.whatsapp-btn:hover,
+.whatsapp-float:hover {
+  background: #1ebe5d;
+}
